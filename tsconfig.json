@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        // resolve modules to be common js formatt
+        // "module": "commonjs",
+        // compile version to be es5
+        "target": "es5",
+        // sets not set variables to "any" by default
+        "noImplicitAny": false,
+        // a .map or source map is created for the ts folder. Can allow you to debug in browser console.
+        // "sourceMap": false,
+        "strictNullChecks": true,
+        // The ts will not compile to js if there is an error
+        "noEmitOnError": true,
+        // Checks to make sure parameters are being used producing cleaner code
+        "noUnusedParameters": false,
+        // we know that decorators may change but we still want to use it
+        "experimentalDecorators": true
+    }
+    // don't compile anything in the nodes modules folder
+    // "exclude": [
+    //     "node_modules",
+    //     "exercises",
+    //     "math"
+    // ],
+    // what files to include in the compile
+    // "files": [
+    //     "app.ts"
+    // ]
+}
